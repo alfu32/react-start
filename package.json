@@ -1,10 +1,19 @@
 {
+  "$schema": "http://json.schemastore.org/package",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel ./src/index.html",
+    "update": "yarn"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
     "sass": "^1.20.1",
     "typescript": "^3.4.5"
   },
   "dependencies": {
+    "@flatten-js/core": "^1.0.15",
+    "@material-ui/system": "^4.0.0",
+    "@sbefmp/core": "^1.0.6",
     "@types/react": "^16.8.18",
     "@types/react-dom": "^16.8.4",
     "react": "^16.8.6",
